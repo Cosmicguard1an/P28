@@ -3,7 +3,7 @@ class Rope {
         var options = {
             bodyA: bodyA,
             pointB: pointB,
-            length: 1.25,
+            length: 1,
             stiffness: 0.004
         }
         this.pointB = pointB
@@ -22,6 +22,6 @@ class Rope {
     }
 
     attach(body) {
-        this.rope1.bodyA = body;
+        this.rope.bodyA = body;
     }
 }
